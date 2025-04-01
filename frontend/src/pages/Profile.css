@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #8a2be2, #ff69b4, #00d4ff);
+  font-family: Arial, sans-serif;
+  padding: 0 10px;
+  margin: 0; /* Ensure no unwanted margin */
+}
+
+.profile-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  max-height: 90vh; /* Limit height to 90% of viewport height */
+  overflow-y: auto; /* Make the profile container scrollable if content overflows */
+}
+
+h2 {
+  color: #333;
+}
+
+.profile-image-container {
+  margin: 20px 0;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.debtdetails,
+.creditdetails {
+  margin-top: 20px;
+}
+
+.debtdetails h3,
+.creditdetails h3 {
+  color: #8a2be2;
+}
+
+.debtdetails ul,
+.creditdetails ul {
+  list-style: none;
+  padding: 0;
+}
+
+.debtdetails li {
+  background: red;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.creditdetails li {
+  background: greenyellow;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.navigate-btn,
+.logout-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #8a2be2, #ff69b4);
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navigate-btn:hover,
+.logout-btn:hover {
+  background: linear-gradient(to right, #ff69b4, #8a2be2);
+}
+.timestamp {
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 5px;
+}

@@ -1,0 +1,66 @@
+/* Background image and general layout */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1500'); /* Replace with actual background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Message Styling */
+  .welcome-message h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Button styling */
+  .auth-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Styling for the Login button */
+  .login-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Styling for the Signup button */
+  .signup-button {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  /* Hover effect for buttons */
+  .auth-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Focus effect on button click */
+  .auth-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.6);
+  }
+  
